@@ -1,0 +1,128 @@
+[
+   {
+      "awbDetails": {
+         "shipmentSeqNumber": 123620,
+         "awbNumber": "12345678",
+         "carrierCode": "023",
+         "productType": "IX1",
+         "receiverInitialCode": "CN",
+         "originCityCode": "AAA",
+         "destinationCityCode": "AAQ",
+         "createDate": 1513231200000,
+         "executeDate": null,
+         "receiptDate": 1450268460000,
+         "currencyCode": null,
+         "afiType": null,
+         "fdxOrigin": "AAA",
+         "fdxDestination": "AAQ",
+         "totalChargeableWgtLB": 110,
+         "totalShpQty": 10,
+         "totalShipWgtLB": 110,
+         "chargeWgtLB": null,
+         "otherChrgCollectCd": null,
+         "wgtValChrgSeqCd": null,
+         "otherChrgPrePayCd": null,
+         "chargeTypeCd": null,
+         "afiTWC": null
+      },
+      "awbSplitList": null,
+      "shipmentDelivery": [],
+      "shipmentParty": [
+         {
+            "partyRoleNumber": "BKR",
+            "corpAccountNumber": null,
+            "partyName": null,
+            "businessModeCode": null,
+            "partyIATACode": null,
+            "contactNumber": null,
+            "address": null,
+            "cityCode": null,
+            "stateCode": null,
+            "countryCode": null,
+            "postalCode": null,
+            "pickUpZoneCode": null
+         },
+         {
+            "partyRoleNumber": "CON",
+            "corpAccountNumber": "552646568",
+            "partyName": "TEST EDI CASS ACCOUNT",
+            "businessModeCode": "12",
+            "partyIATACode": null,
+            "contactNumber": "2222222223",
+            "address": "101 N SEPULVEDA BLVD",
+            "cityCode": "EL SEGUNDO",
+            "stateCode": "CA",
+            "countryCode": "US",
+            "postalCode": "902454318",
+            "pickUpZoneCode": null
+         },
+         {
+            "partyRoleNumber": "SHP",
+            "corpAccountNumber": "136319060",
+            "partyName": "FEDEX INTL FREIGHT FORWARDING",
+            "businessModeCode": "03",
+            "partyIATACode": null,
+            "contactNumber": "02861537",
+            "address": "ROOM 12 7F HONGDA INTL PLAZA",
+            "cityCode": "CHENGDU METRO",
+            "stateCode": null,
+            "countryCode": "CN",
+            "postalCode": "610041",
+            "pickUpZoneCode": "XX"
+         },
+         {
+            "partyRoleNumber": "ICA",
+            "corpAccountNumber": "175928561",
+            "partyName": "FEDEX TRADE NETWORKS TRANSPORT",
+            "businessModeCode": "05",
+            "partyIATACode": "01-1 1002-0041",
+            "contactNumber": "3103533499",
+            "address": "19601 HAMILTON AVE",
+            "cityCode": "TORRANCE",
+            "stateCode": "CA",
+            "countryCode": "US",
+            "postalCode": "905021309",
+            "pickUpZoneCode": null
+         }
+      ],
+      "shipmentPayment": [
+         {
+            "localCurrencyCode": "USD",
+            "payTypeCode": "CRD",
+            "collectedLocalCurrencyAmount": 10,
+            "locationTypeCode": "O"
+         }
+      ],
+      "shipmentQWD": [
+         {
+            "totalShipmentQty": 10,
+            "chargeableWeightQty": null,
+            "weightQty": 110,
+            "ratePerChargeAmount": null,
+            "itemNumber": 1,
+            "containerTypeCode": null,
+            "rateClassCode": null,
+            "rateCombinationPointCode": null,
+            "qwdDescription": "CHINNA",
+            "unitOfWeight": "L"
+         }
+      ],
+      "awbCharges": {
+         "mainCharges": [
+            {
+               "chargeCd": "WC",
+               "chargeDesc": "Weight Charge",
+               "prePaidAmount": 144,
+               "collectAmount": null,
+               "otherCharges": null
+            }
+         ]
+      },
+      "specialHandlingCodeList": null,
+      "dangerousGoodList": null,
+      "serviceCodeList": [
+         "NIL"
+      ],
+      "shipmentReference": null
+   }
+]
